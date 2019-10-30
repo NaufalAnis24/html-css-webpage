@@ -1,0 +1,191 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background-image:/*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/url(pic2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+        
+}
+
+
+/*.photo
+{
+   height: auto;
+    float: right;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}*/
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+body
+{
+    font-family: monospace;
+}
+
+/*.row
+{
+    max-width: 1200px;
+    margin: auto;
+}*/
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: red;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: right;
+    margin-top: 275px;
+}
+
+.button
+{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 900px;
+    margin-bottom: 200px;
+}
+
+.btn
+{
+    display: block;
+    width: 50px;
+    height: 10px;
+    border: 1px solid red;
+    padding: 20px 30px;
+    color: red;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.gambar
+{
+    float: left;
+    height: 750px;
+    margin-left: 40%;
+    margin-bottom: 70%;
+    margin-bottom: 70%;
+    margin-top: inherit;
+    animation: scale-down-center 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+}
+.btn-one
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-one:hover
+{
+    background-color: antiquewhite;
+    transition: all 0.5s ease-in;
+}
+
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: antiquewhite;
+    transition: all 0.5s ease-in;
+}
+
+.btn-three
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-three:hover
+{
+    background-color: antiquewhite;
+    transition: all 0.5s ease-in;
+}
+
+.btn-four
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-four:hover
+{
+    background-color: red;
+    transition: all 0.5s ease-in;
+}
+
+
+
+
